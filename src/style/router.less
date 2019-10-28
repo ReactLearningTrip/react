@@ -1,0 +1,44 @@
+.l_router_div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .l_router_div_left{
+        position: absolute;
+        top: 60px;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        .ant-menu-submenu-title{
+            >span{
+                font-size: 18px;
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+        ul{
+            background: rgb(0,32,64);
+            .ant-menu-item{
+               color: #fff;
+               height: 50px;
+               line-height: 50px;
+               margin-bottom: 4px;
+            }
+            .ant-menu-item-selected,.ant-menu-item-active{
+                background: rgb(4,133,253)
+            }
+        }
+    }
+    .l_router_div_right{
+        position: absolute;
+        top: 60px;
+        bottom: 0;
+        left: 200px;
+        right: 0;
+        padding: 24px;
+        padding-top: 0;
+    }
+}
