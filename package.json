@@ -50,7 +50,7 @@
     "less": "^2.7.2",
     "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "path": "^0.12.7",
     "postcss": "^6.0.22",
     "postcss-loader": "^3.0.0",
